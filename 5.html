@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>攝影課程 CRM 系統</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 1em 0;
+            text-align: center;
+        }
+        nav {
+            background-color: #555;
+            display: flex;
+            justify-content: center;
+            padding: 0.5em 0;
+        }
+        nav a {
+            color: white;
+            margin: 0 1em;
+            text-decoration: none;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        main {
+            padding: 2em;
+        }
+        section {
+            margin-bottom: 2em;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1em 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>攝影課程 CRM 系統</h1>
+    </header>
+
+    <nav>
+        <a href="#dashboard">主頁</a>
+        <a href="#clients">客戶管理</a>
+        <a href="#courses">課程管理</a>
+        <a href="#registrations">報名管理</a>
+        <a href="#analytics">數據分析</a>
+    </nav>
+
+    <main>
+        <section id="dashboard">
+            <h2>主頁</h2>
+            <p>歡迎來到攝影課程 CRM 系統。請選擇一個功能開始。</p>
+        </section>
+
+        <section id="clients">
+            <h2>客戶管理</h2>
+            <button onclick="alert('新增客戶功能')">新增客戶</button>
+            <p>客戶清單將顯示於此。</p>
+        </section>
+
+        <section id="courses">
+            <h2>課程管理</h2>
+            <button onclick="alert('新增課程功能')">新增課程</button>
+            <p>課程清單將顯示於此。</p>
+        </section>
+
+        <section id="registrations">
+            <h2>報名管理</h2>
+            <p>顯示課程報名詳細資訊。</p>
+        </section>
+
+        <section id="analytics">
+            <h2>數據分析</h2>
+            <p>顯示客戶參與趨勢和課程報表。</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2024 攝影課程 CRM 系統</p>
+    </footer>
+</body>
+</html>
