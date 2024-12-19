@@ -1,0 +1,85 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>客戶資料管理</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 1em 0;
+            text-align: center;
+        }
+        main {
+            padding: 2em;
+        }
+        form {
+            background: white;
+            padding: 2em;
+            border-radius: 5px;
+            max-width: 600px;
+            margin: 0 auto;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+        }
+        label {
+            display: block;
+            margin-bottom: 0.5em;
+            font-weight: bold;
+        }
+        input, select, textarea {
+            width: 100%;
+            padding: 0.5em;
+            margin-bottom: 1em;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        button {
+            background-color: #5cb85c;
+            color: white;
+            padding: 0.7em 2em;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #4cae4c;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>客戶資料管理</h1>
+    </header>
+    <main>
+        <form>
+            <label for="name">姓名</label>
+            <input type="text" id="name" name="name" placeholder="輸入客戶姓名">
+
+            <label for="email">電子郵件</label>
+            <input type="email" id="email" name="email" placeholder="輸入電子郵件地址">
+
+            <label for="phone">聯絡電話</label>
+            <input type="tel" id="phone" name="phone" placeholder="輸入聯絡電話">
+
+            <label for="birthday">生日</label>
+            <input type="date" id="birthday" name="birthday">
+
+            <label for="address">地址</label>
+            <textarea id="address" name="address" rows="3" placeholder="輸入地址"></textarea>
+
+            <label for="preferences">攝影偏好</label>
+            <input type="text" id="preferences" name="preferences" placeholder="輸入攝影偏好">
+
+            <button type="submit">儲存資料</button>
+        </form>
+    </main>
+</body>
+</html>
